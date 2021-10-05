@@ -2,7 +2,7 @@
 
 // Task 1
 
-let user = {};
+const user = {};
 
 user.name = 'John';
 user.surName = 'Smith';
@@ -26,7 +26,7 @@ delete user.name;
 
 // Task 3
 
-let salaries = {
+const salaries = {
 
     John: 100,
 
@@ -35,5 +35,5 @@ let salaries = {
     Pete: 130
 
 }
-let sum = salaries.John + salaries.Ann + salaries.Pete;
+const sum = salaries.John + salaries.Ann + salaries.Pete;
 console.log(sum);
